@@ -124,8 +124,8 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    padding-top: 20px;
+    min-height: calc(100vh - 10px);
   }
   
   .main-section {
@@ -180,6 +180,16 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+  .card-group1, .card-group2{
+    width:100%;
+    float:left;
+    margin: 10px;
+  }
+  .card {
+    width: 300px;
+    float: left;
+    margin: 10px;
+  }
   
   /* contact page */
   
@@ -226,6 +236,88 @@ body {
   margin-right: 10px;
 }
 
+
+<!--social media icons-->
+@charset "UTF-8";
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.google-plus {
+  background: #dd4b39;
+}
+
+.rounded-social-buttons .social-button.google-plus:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.google-plus:hover, .rounded-social-buttons .social-button.google-plus:focus {
+  color: #dd4b39;
+  background: #fefefe;
+  border-color: #dd4b39;
+}
+
+.rounded-social-buttons .social-button.github {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+
+
 @media (max-width: 700px) {
 
   .profilepic {
@@ -233,8 +325,18 @@ body {
     width: 100%;
   }
 
+  .card{
+    width: 75%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 400px) {
-
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
