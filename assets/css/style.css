@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: #777777;
@@ -17,8 +17,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    background-color: teal;
-  }
+     }
   
   h1,
   h2,
@@ -35,7 +34,7 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     color: #4aaaa5;
   }
@@ -71,8 +70,8 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
     font-weight: 700;
     line-height: 90px;
     color: #ffffff;
@@ -84,6 +83,8 @@ body {
   nav {
     float: right;
     margin-top: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
   }
   
   nav a {
@@ -105,7 +106,7 @@ body {
   footer {
     padding: 30px 0;
     clear: both;
-    font-size: 12px;
+    font-size: 18px;
     color: #ffffff;
     color: #cccccc;
     text-align: center;
@@ -124,7 +125,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 20px;
+    padding-top: 60px;
     min-height: calc(100vh - 10px);
   }
   
@@ -331,6 +332,9 @@ body {
     margin-bottom: 20px;
   }
 
+  #masterhead{
+    background-color: rgb(32, 32, 243);
+  }
 }
 
 @media (max-width: 400px) {
@@ -338,5 +342,9 @@ body {
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+
+  #masterhead{
+    background-color: rgb(32, 32, 243);
   }
 }
